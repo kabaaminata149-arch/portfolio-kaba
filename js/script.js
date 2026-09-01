@@ -149,10 +149,10 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
 
 // Configuration de l'URL du backend
 // En développement : http://localhost:8000/chat
-// En production : remplacez par l'URL Render : https://votre-app.onrender.com/chat
+// En production : Backend déployé sur Render
 const BACKEND_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
   ? "http://localhost:8000/chat"
-  : "https://YOUR_RENDER_APP_URL.onrender.com/chat"; // ← À REMPLACER par l'URL Render
+  : "https://portfolio-kaba.onrender.com/chat"; // ✅ URL Render configurée
 
 const chatToggle = document.getElementById('chatToggle');
 const chatPanel = document.getElementById('chatPanel');
