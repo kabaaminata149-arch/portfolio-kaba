@@ -146,7 +146,13 @@ document.getElementById('contactForm').addEventListener('submit', function(e){
    Ce widget appelle VOTRE backend (dossier /backend), pas une API IA directement
    depuis le navigateur — la clé API doit toujours rester côté serveur.
    Changez BACKEND_URL une fois votre backend démarré ou déployé. */
-const BACKEND_URL = "http://localhost:8000/chat"; // <-- à remplacer par l'URL de votre backend déployé
+
+// Configuration de l'URL du backend
+// En développement : http://localhost:8000/chat
+// En production : remplacez par l'URL Railway : https://votre-app.up.railway.app/chat
+const BACKEND_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? "http://localhost:8000/chat"
+  : "https://YOUR_RAILWAY_APP_URL.up.railway.app/chat"; // ← À REMPLACER par l'URL Railway
 
 const chatToggle = document.getElementById('chatToggle');
 const chatPanel = document.getElementById('chatPanel');
