@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr" id="html-root">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kaba Aminata Kaheylane | Data & IA Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/chat-widget.css">
+</head>
+<body>
+
+<canvas id="petals"></canvas>
+<div class="bokeh b1"></div>
+<div class="bokeh b2"></div>
+<div class="bokeh b3"></div>
+
+<nav>
+  <div class="wrap">
+    <div class="logo">Kheylane<span>.</span></div>
+    <div class="navlinks">
+      <a href="#about">À propos</a>
+      <a href="#work">Projets</a>
+      <a href="#contact">Contact</a>
+      <!-- AVATAR NAV : remplacez src="assets/photos/avatar.jpg" -->
+      <div class="nav-avatar"><img src="assets/photos/avatar.jpg" alt="avatar" onerror="this.style.display='none'"></div>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Intelligence Artificielle</div>
+      <h1 class="name">Transformer les <span class="accent typed-text"></span><br>en décisions</h1>
+      <p class="role">Je suis Kaba Aminata Kaheylane, développeuse Data & IA passionnée par l'automatisation, le développement web/mobile et les solutions concrètes.</p>
+      <div class="cta-row">
+        <a class="btn solid" href="#work">Voir mes projets</a>
+        <!-- CV : Remplacez VOTRE_ID_FICHIER par l'ID de votre fichier Google Drive -->
+        <a class="btn ghost" href="https://drive.google.com/file/d/VOTRE_ID_FICHIER/view" target="_blank" rel="noopener">Télécharger mon CV</a></a>
+      </div>
+    </div>
+
+    <div class="photo-stage">
+      <div class="fan-deco"><img src="assets/decor/eventail.png" alt="éventail décoratif"></div>
+      <!-- PHOTO 1 : remplacez src par "assets/photos/photo-hero.jpg" -->
+      <div class="photo-slot">
+        <img src="assets/photos/photo-hero.jpg" alt="Photo de Kaba" onerror="this.style.display='none'" onload="this.nextElementSibling.style.display='none'">
+        <span class="hint">Emplacement photo
+remplacez le src ici</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="about" class="fade-in-section">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <!-- PHOTO 2 : remplacez src par "assets/photos/about.jpg" -->
+        <div class="photo-slot square">
+          <img src="assets/photos/about.jpg" alt="Photo de Kaba" onerror="this.style.display='none'" onload="this.nextElementSibling.style.display='none'">
+          <span class="hint">2e emplacement photo</span>
+        </div>
+        <div class="bouquet-deco"><img src="assets/decor/bouquet.png" alt="bouquet de fleurs de cerisier"></div>
+      </div>
+      
+      <div class="intro-section">
+        <div class="intro-label">INTRODUCTION</div>
+        <h2 class="intro-title">Qui suis-je?</h2>
+        <p class="intro-text">
+          Salut ! Je suis Kaba Aminata Kaheylane, développeuse Data & IA basée à Abidjan, passionnée par l'automatisation et fondatrice de projets innovants. Mon ambition est de devenir une voix féminine forte dans la tech — ne plus seulement la suivre, mais aussi construire, partager et contribuer à son évolution. Je conçois des applications intelligentes, travaille sur l'IA locale, le développement mobile, et explore des solutions orientées data avec des technologies comme Python, Flutter, React Native, Ollama et les outils d'automatisation no-code.
+        </p>
+        
+        <!-- Badges de compétences avec icônes -->
+        <div class="skills-badges">
+          <div class="skill-badge">
+            <div class="skill-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"/>
+              </svg>
+            </div>
+            <div class="skill-label">Développement<br>Full-Stack</div>
+          </div>
+          
+          <div class="skill-badge">
+            <div class="skill-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/>
+              </svg>
+            </div>
+            <div class="skill-label">Intelligence<br>Artificielle</div>
+          </div>
+          
+          <div class="skill-badge">
+            <div class="skill-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+              </svg>
+            </div>
+            <div class="skill-label">Analyse de<br>Données</div>
+          </div>
+          
+          <div class="skill-badge">
+            <div class="skill-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+              </svg>
+            </div>
+            <div class="skill-label">Automatisation<br>& No-Code</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Section Technologies & Outils -->
+    <div class="tech-section">
+      <h3 class="tech-title">Technologies & Outils</h3>
+      <div class="tech-grid">
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><path fill="#3776AB" d="M15.885 2.1c-7.1 0-6.651 3.07-6.651 3.07v3.19h6.752v.96H6.545S2 8.8 2 16.005c0 7.204 4.002 6.945 4.002 6.945h2.381v-3.33s-.132-4.001 3.936-4.001h6.648s3.804.06 3.804-3.674V5.234S24.045 2.1 15.885 2.1zm-3.67 2.095c.587 0 1.065.479 1.065 1.07 0 .591-.478 1.07-1.065 1.07-.588 0-1.066-.479-1.066-1.07 0-.591.478-1.07 1.066-1.07z"/><path fill="#FFD43B" d="M16.115 29.9c7.1 0 6.651-3.07 6.651-3.07v-3.19h-6.752v-.96h9.441S30 23.2 30 15.995c0-7.204-4.002-6.945-4.002-6.945h-2.381v3.33s.132 4.001-3.936 4.001h-6.648s-3.804-.06-3.804 3.674v5.712S8.955 29.9 16.115 29.9zm3.67-2.095c-.587 0-1.065-.479-1.065-1.07 0-.591.478-1.07 1.065-1.07.588 0 1.066.479 1.066 1.07 0 .591-.478 1.07-1.066 1.07z"/></svg>
+          <span>Python</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="2" fill="#F7DF1E"/><path fill="#000" d="M18.3 21.7c.5.9 1.2 1.5 2.4 1.5.9 0 1.5-.5 1.5-1.2 0-.8-.6-1.1-1.6-1.5l-.5-.2c-1.7-.7-2.8-1.6-2.8-3.5 0-1.7 1.3-3 3.3-3 1.4 0 2.5.5 3.2 1.8l-1.7 1.1c-.4-.7-.8-1-1.5-1-.7 0-1.1.4-1.1 1 0 .7.4 1 1.4 1.4l.5.2c2 .9 3.1 1.7 3.1 3.7 0 2.1-1.6 3.2-3.8 3.2-2.1 0-3.5-1-4.2-2.4l1.8-1.1zm-8.5.1c.3.6.6 1.1 1.3 1.1.7 0 1.1-.3 1.1-1.4v-7.6h2.3v7.7c0 2.3-1.4 3.4-3.4 3.4-1.8 0-2.9-.9-3.5-2.1l2.2-1.1z"/></svg>
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><path fill="#E44D26" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30z"/><path fill="#F16529" d="M16 27.858l8.17-2.265 1.922-21.532H16z"/><path fill="#EBEBEB" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83.759 8.517H16zm0 8.027l-.014.004-3.442-.929-.22-2.465H9.221l.433 4.852 6.332 1.758.014-.004z"/><path fill="#FFF" d="M15.989 13.407v3.091h3.806l-.358 4.009-3.448.93v3.216l6.337-1.757.046-.522.726-8.137.076-.83zm0-6.256v3.091h7.466l.062-.694.141-1.567.074-.83z"/></svg>
+          <span>HTML</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><path fill="#1572B6" d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30z"/><path fill="#33A9DC" d="M16 27.858l8.17-2.265 1.922-21.532H16z"/><path fill="#FFF" d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829-.759 8.518H16zm.019 8.026l-.014.004-3.442-.93-.22-2.465H9.24l.433 4.853 6.331 1.758.015-.004z"/><path fill="#EBEBEB" d="M16.001 21.218v-3.216l-.014.004-3.442-.93-.22-2.465h3.676v-3.091h-7.25l.196 2.189.759 8.517 6.295-1.008zm-.067-8.028H12.24l.282-3.165h3.412V6.935H8.885l.074.829.759 8.518h6.216z"/></svg>
+          <span>CSS</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" style="width: 48px; height: 48px;">
+          <span>R</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" style="width: 48px; height: 48px;">
+          <span>Flutter</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="6" fill="#150458"/><path fill="#E70488" d="M12 8h8v2h-8zm0 4h8v2h-8zm0 4h8v2h-8zm0 4h8v2h-8z"/><path fill="#FFF" d="M8 8h2v16H8z"/></svg>
+          <span>Pandas</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" alt="OpenCV" style="width: 48px; height: 48px;">
+          <span>OpenCV</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" alt="SQLite" style="width: 48px; height: 48px;">
+          <span>SQLite</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" style="width: 48px; height: 48px;">
+          <span>MySQL</span>
+        </div>
+        <div class="tech-badge">
+          <img class="tech-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" style="width: 48px; height: 48px;">
+          <span>Git</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 2C8.268 2 2 8.268 2 16c0 6.195 4.008 11.455 9.572 13.314.7.13.958-.304.958-.676 0-.333-.012-1.217-.018-2.387-3.893.846-4.714-1.878-4.714-1.878-.637-1.618-1.555-2.048-1.555-2.048-1.27-.869.096-.851.096-.851 1.405.099 2.145 1.443 2.145 1.443 1.249 2.14 3.276 1.521 4.074 1.163.127-.905.489-1.522.89-1.872-3.112-.354-6.384-1.556-6.384-6.925 0-1.529.546-2.779 1.442-3.758-.144-.355-.625-1.782.137-3.714 0 0 1.175-.376 3.85 1.436a13.32 13.32 0 0 1 3.5-.471c1.188.005 2.385.16 3.5.471 2.673-1.812 3.847-1.436 3.847-1.436.764 1.932.283 3.359.139 3.714.898.979 1.441 2.229 1.441 3.758 0 5.382-3.278 6.567-6.398 6.914.503.433.951 1.287.951 2.594 0 1.873-.017 3.382-.017 3.841 0 .374.255.811.964.674C25.995 27.451 30 22.193 30 16c0-7.732-6.268-14-14-14z" fill="#181717"/></svg>
+          <span>GitHub</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><rect width="32" height="32" rx="4" fill="#F2C811"/><path d="M8 12h4v12H8zm6-4h4v16h-4zm6 8h4v8h-4z" fill="#000"/></svg>
+          <span>Power BI</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 32 32" fill="none"><path fill="#217346" d="M28 4H11.5L4 11.5V28l7.5 0H28c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1z"/><path fill="#FFF" d="M12 8v4H8l4-4z"/><text x="16" y="22" text-anchor="middle" fill="#FFF" font-size="12" font-weight="bold">X</text></svg>
+          <span>Excel</span>
+        </div>
+        <div class="tech-badge">
+          <svg class="tech-img" viewBox="0 0 308 308" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="308" height="308" fill="#EA4B71"/>
+            <g transform="translate(30, 100)">
+              <circle cx="30" cy="54" r="22" fill="#FFF"/>
+              <circle cx="30" cy="54" r="10" fill="#EA4B71"/>
+              <circle cx="90" cy="54" r="22" fill="#FFF"/>
+              <circle cx="90" cy="54" r="10" fill="#EA4B71"/>
+              <circle cx="210" cy="25" r="22" fill="#FFF"/>
+              <circle cx="210" cy="25" r="10" fill="#EA4B71"/>
+              <circle cx="210" cy="83" r="22" fill="#FFF"/>
+              <circle cx="210" cy="83" r="10" fill="#EA4B71"/>
+              <path d="M52 54 L68 54" stroke="#FFF" stroke-width="18" stroke-linecap="round"/>
+              <path d="M112 54 L140 54 L140 25 L188 25" stroke="#FFF" stroke-width="18" stroke-linecap="round" fill="none"/>
+              <path d="M140 54 L140 83 L188 83" stroke="#FFF" stroke-width="18" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>
+          <span>n8n</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="work" class="fade-in-section">
+  <div class="wrap">
+    <div class="kicker">Projets</div>
+    <h2 class="h">Projets.</h2>
+    <p class="lead work-subtitle">Voici quelques projets sur lesquels j'ai travaillé récemment. Chacun est brièvement décrit avec des liens vers les dépôts et les démos.</p>
+
+    <!-- Grille de projets style Mégane Farelle -->
+    <div class="projects-grid">
+      
+      <!-- Projet 1: Chat&Go -->
+      <article class="project-card" data-category="mobile ai">
+        <div class="project-preview">
+          <img src="assets/projects/chatgo (1).jpeg" alt="Capture Chat&Go" onerror="this.style.display='none'">
+          <button class="project-gallery-btn" onclick="openGallery('chatgo', 6)" aria-label="Voir plus de photos">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>Voir plus</span>
+          </button>
+          <a href="javascript:void(0);" class="project-github" aria-label="Voir le code">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Chat&Go </h3>
+          <p class="project-desc">Application mobile connectant les utilisateurs à des prestataires de services locaux via un agent IA, avec une interface inspirée de WhatsApp.</p>
+          <div class="project-tags">
+            <span class="project-tag">#Flutter</span>
+            <span class="project-tag">#FastAPI</span>
+            <span class="project-tag">#AgentIA</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Projet 2: Finalyse -->
+      <article class="project-card" data-category="desktop ai">
+        <div class="project-preview">
+          <img src="assets/projects/finalyse (1).png" alt="Capture Finalyse" onerror="this.style.display='none'">
+          <button class="project-gallery-btn" onclick="openGallery('finalyse', 6)" aria-label="Voir plus de photos">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>Voir plus</span>
+          </button>
+          <a href="javascript:void(0);" class="project-github" aria-label="Voir le code">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Finalyse - Finance Intelligente</h3>
+          <p class="project-desc">Application desktop d'analyse automatique de factures par IA locale, sans passer par le cloud.</p>
+          <div class="project-tags">
+            <span class="project-tag">#PyQt6</span>
+            <span class="project-tag">#Ollama</span>
+            <span class="project-tag">#OCR</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Projet 3: I dansɛ_bot -->
+      <article class="project-card" data-category="automation ai">
+        <div class="project-preview">
+          <img src="assets/projects/idense_bot (1).jpeg" alt="Capture I dansɛ_bot" onerror="this.style.display='none'">
+          <button class="project-gallery-btn" onclick="openGallery('idense_bot', 3)" aria-label="Voir plus de photos">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>Voir plus</span>
+          </button>
+          <a href="javascript:void(0);" class="project-github" aria-label="Voir le code">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">I dansɛ_bot - Guide Touristique IA</h3>
+          <p class="project-desc">Bot Telegram pour la Côte d'Ivoire, construit avec n8n, DeepSeek, SerpAPI et Google Sheets.</p>
+          <div class="project-tags">
+            <span class="project-tag">#n8n</span>
+            <span class="project-tag">#Telegram</span>
+            <span class="project-tag">#DeepSeek</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Projet 4: Analyse croisée -->
+      <article class="project-card" data-category="data ai">
+        <div class="project-preview">
+          <img src="assets/projects/analyse_croisée (1).png" alt="Analyse croisée" onerror="this.style.display='none'">
+          <button class="project-gallery-btn" onclick="openGallery('analyse_croisée', 4)" aria-label="Voir plus de photos">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+            </svg>
+            <span>Voir plus</span>
+          </button>
+          <a href="javascript:void(0);" class="project-github" aria-label="Voir le code">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+        </div>
+        <div class="project-info">
+          <h3 class="project-title">Analyse croisée - Power BI</h3>
+          <p class="project-desc">Tableau de bord interactif analysant les relations entre consommation d'alcool, conflits et taux d'homicides dans plus de 160 pays (2000–2022) — données Oxus, UCDP, UNODC.</p>
+          <div class="project-tags">
+            <span class="project-tag">#PowerBI</span>
+            <span class="project-tag">#DataAnalysis</span>
+            <span class="project-tag">#Visualization</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <div class="kicker">Contact</div>
+      <h2 class="h">Contactez-moi</h2>
+      <p class="lead">Disponible pour un stage, une alternance ou une mission junior en Data / IA.</p>
+      <div class="meta-list">
+        <span>kabaaminata149@gmail.com</span>
+        <span>07 88 12 05 24</span>
+        <span>2 Plateaux, Abidjan</span>
+      </div>
+    </div>
+    <!-- Pour un envoi réel : créez un compte sur formspree.io et collez l'URL fournie dans action="" -->
+    <form id="contactForm" action="https://formspree.io/f/xljejqqz" method="POST">
+      <div class="field"><label>Votre nom</label><input type="text" name="name" required></div>
+      <div class="field"><label>Votre e-mail</label><input type="email" name="email" required></div>
+      <div class="field"><label>Votre message</label><textarea name="message" rows="5" required></textarea></div>
+      <button type="submit" class="btn solid">Envoyer</button>
+      <div id="formStatus"></div>
+    </form>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <h3 class="footer-title">Designed and Developed by <span class="footer-name">Kaba Aminata Kaheylane</span></h3>
+    
+    <!-- Réseaux sociaux -->
+    <div class="social-links">
+      <a href="https://github.com/kabaaminata149-arch" target="_blank" rel="noopener" class="social-icon" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/aminata-kaheylane-kaba-a74b04250" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+      </a>
+      <a href="https://twitter.com/votre-twitter" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+      <a href="https://youtube.com/@votre-chaine" target="_blank" rel="noopener" class="social-icon" aria-label="YouTube">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+        </svg>
+      </a>
+    </div>
+    
+    <div class="copyright">© 2026 Kaba Aminata Kaheylane — Tous droits réservés</div>
+  </div>
+</footer>
+
+<!-- WIDGET DE CHAT — voir /backend pour le serveur qui l'alimente -->
+<button id="chatToggle" aria-label="Ouvrir le chat">💬</button>
+<div id="chatPanel">
+  <div class="chat-head">Discuter avec l'assistant de Kaba</div>
+  <div id="chatBody"></div>
+  <form id="chatForm">
+    <input id="chatInput" type="text" autocomplete="off" placeholder="Posez une question sur mon parcours...">
+    <button type="submit">➤</button>
+  </form>
+</div>
+
+<!-- MODAL GALERIE PHOTOS -->
+<div id="photoModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 id="modal-title">Photos du Projet</h3>
+      <button class="modal-close" onclick="closeGallery()">&times;</button>
+    </div>
+    <div class="modal-body">
+      <div class="gallery-container">
+        <button class="gallery-nav prev" onclick="previousPhoto()" aria-label="Photo précédente">❮</button>
+        <div class="gallery-main">
+          <img id="modal-image" src="" alt="Photo du projet">
+          <div class="gallery-counter">
+            <span id="current-photo">1</span> / <span id="total-photos">1</span>
+          </div>
+        </div>
+        <button class="gallery-nav next" onclick="nextPhoto()" aria-label="Photo suivante">❯</button>
+      </div>
+      <div class="gallery-thumbnails" id="gallery-thumbnails">
+        <!-- Les miniatures seront générées dynamiquement -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

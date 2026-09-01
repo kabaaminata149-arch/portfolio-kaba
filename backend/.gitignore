@@ -1,0 +1,6 @@
+# Fichiers sensibles - NE PAS COMMITER
+.env
+*.pyc
+__pycache__/
+venv/
+.venv/
